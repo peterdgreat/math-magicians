@@ -2,3 +2,26 @@
 .s-box {
   width: 25%;
 }
+
+.box {
+  background-color: #e0e0e0;
+}
+
+.btn {
+  border-radius: 0;
+  margin: 1px;
+}
+
+.s-box {
+  background-color: #f5913e;
+}
+
+.b-box {
+  width: 50%;
+  background-color: #e0e0e0;
+}
+
+.h-bg {
+  background-color: #858693;
+  color: #fff;
+}
