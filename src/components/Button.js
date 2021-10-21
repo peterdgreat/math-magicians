@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types';
 
 export default function Button(props) {
-  const { value, classes } = props;
-  const handleClick = () => {
-    const { handleClick, value } = props;
+  const { value, classes, handleClick } = props;
+  const handleclick = () => {
     handleClick(value);
   };
   return (
-    <button type="button" className={classes} onClick={handleClick}>
+    <button type="button" className={classes} onClick={handleclick}>
       {value}
     </button>
   );
