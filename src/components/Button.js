@@ -15,7 +15,6 @@ export default class Button extends Component {
 
   render() {
     const { value, classes } = this.props;
-    // const strClasses = classes.join(' ');
     return (
       <button type="button" className={classes} onClick={this.handleClick}>
         {value}
