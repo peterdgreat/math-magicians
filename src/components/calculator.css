@@ -21,6 +21,10 @@
   background-color: #e0e0e0;
 }
 
+.quote {
+  height: 100vh;
+}
+
 .h-bg {
   background-color: #858693;
   color: #fff;
