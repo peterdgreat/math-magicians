@@ -21,7 +21,19 @@
   background-color: #e0e0e0;
 }
 
+.quote {
+  height: 100vh;
+}
+
 .h-bg {
   background-color: #858693;
+  color: #fff;
+}
+
+.bdr {
+  border-right: 1px solid #115dd1;
+}
+
+.navBar {
   color: #fff;
 }

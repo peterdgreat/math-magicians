@@ -7,6 +7,8 @@
 
 ![screenshot](calculator.png)
 
+## Live demo
+[math-magician](https://peterdgreat.github.io/math-magicians/)
 ## Built With
 
 - React
