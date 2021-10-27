@@ -29,3 +29,11 @@
   background-color: #858693;
   color: #fff;
 }
+
+.bdr {
+  border-right: 1px solid #115DD1;
+}
+
+.navBar {
+  color: #fff;
+}

@@ -11,10 +11,10 @@ export default function NavBar() {
         </button>
         <div className="collapse  d-flex justify-content-end navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/">Home</NavLink>
+            <li className="nav-item bdr">
+              <NavLink className="nav-link " to="/">Home</NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item bdr">
               <NavLink className="nav-link" to="/calculator">Calculator</NavLink>
             </li>
             <li className="nav-item">
