@@ -11,8 +11,8 @@ it('calculate', () => {
 });
 
 describe('Test for calculate functions', () => {
-  let state; let
-    buttonName;
+  let state;
+  let buttonName;
 
   beforeEach(() => {
     state = {
@@ -22,7 +22,7 @@ describe('Test for calculate functions', () => {
     };
   });
 
-  test('Testing if the buttonName is AC', () => {
+  test('Testing when the buttonName is AC', () => {
     buttonName = 'AC';
     state.total = '1';
     state.next = '2';
@@ -36,7 +36,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is a number, is equal to 0 and object.next is equal to 0 return empty objet', () => {
+  test('Testing when buttonName is a number, is equal to 0 and object.next is equal to 0 return empty objet', () => {
     buttonName = '0';
     state.next = '0';
     const result = calculate(state, buttonName);
@@ -44,7 +44,7 @@ describe('Test for calculate functions', () => {
     expect(result).toEqual({});
   });
 
-  test('Testing if buttonName is a number, if there is an operation and if there is object.next', () => {
+  test('Testing when buttonName is a number, when there is an operation and when there is object.next', () => {
     buttonName = '0';
     state.operation = 'x';
     state.next = '3';
@@ -56,7 +56,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is a number, if there is an operation and if there is object.next if false', () => {
+  test('Testing when buttonName is a number, when there is an operation and when there is object.next when false', () => {
     buttonName = '0';
     state.operation = 'x';
     const result = calculate(state, buttonName);
@@ -67,7 +67,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is a number and obj.next is true', () => {
+  test('Testing when buttonName is a number and obj.next is true', () => {
     buttonName = '0';
     state.next = '3';
     const result = calculate(state, buttonName);
@@ -78,7 +78,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is a number and no other conditions are met', () => {
+  test('Testing when buttonName is a number and no other conditions are met', () => {
     buttonName = '0';
     const result = calculate(state, buttonName);
 
@@ -88,7 +88,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is . and obj.next exist and object.next includes the .', () => {
+  test('Testing when buttonName is . and obj.next exist and object.next includes the .', () => {
     buttonName = '.';
     state.next = '.2';
     const result = calculate(state, buttonName);
@@ -98,7 +98,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is . and obj.next exist', () => {
+  test('Testing when buttonName is . and obj.next exist', () => {
     buttonName = '.';
     state.next = '2';
     const result = calculate(state, buttonName);
@@ -109,7 +109,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is . and obj.operation exist', () => {
+  test('Testing when buttonName is . and obj.operation exist', () => {
     buttonName = '.';
     state.operation = 'x';
     const result = calculate(state, buttonName);
@@ -119,7 +119,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is . and obj.total exist object.total includes the .', () => {
+  test('Testing when buttonName is . and obj.total exist object.total includes the .', () => {
     buttonName = '.';
     state.total = '2.';
     const result = calculate(state, buttonName);
@@ -127,7 +127,7 @@ describe('Test for calculate functions', () => {
     expect(result).toEqual({});
   });
 
-  test('Testing if buttonName is . and obj.total exist', () => {
+  test('Testing when buttonName is . and obj.total exist', () => {
     buttonName = '.';
     state.total = '2';
     const result = calculate(state, buttonName);
@@ -137,7 +137,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is a . and no other conditions are met', () => {
+  test('Testing when buttonName is a . and no other conditions are met', () => {
     buttonName = '.';
     const result = calculate(state, buttonName);
 
@@ -146,7 +146,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is a = and obj.next and obj.operation exists', () => {
+  test('Testing when buttonName is a = and obj.next and obj.operation exists', () => {
     buttonName = '=';
     state.total = '2';
     state.next = '1';
@@ -160,14 +160,14 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is a =', () => {
+  test('Testing when buttonName is a =', () => {
     buttonName = '=';
     const result = calculate(state, buttonName);
 
     expect(result).toEqual({});
   });
 
-  test('Testing if buttonName is +/- and obj.next exist', () => {
+  test('Testing when buttonName is +/- and obj.next exist', () => {
     buttonName = '+/-';
     state.next = '3';
     const result = calculate(state, buttonName);
@@ -178,7 +178,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is +/- and obj.total exist', () => {
+  test('Testing when buttonName is +/- and obj.total exist', () => {
     buttonName = '+/-';
     state.total = '3';
     const result = calculate(state, buttonName);
@@ -189,14 +189,14 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if buttonName is +/-', () => {
+  test('Testing when buttonName is +/-', () => {
     buttonName = '+/-';
     const result = calculate(state, buttonName);
 
     expect(result).toEqual({});
   });
 
-  test('Testing if obj.total exist and obj.next and obj.operation doesn\'t', () => {
+  test('Testing when obj.total exist and obj.next and obj.operation doesn\'t', () => {
     state.total = '3';
     buttonName = '+';
     const result = calculate(state, buttonName);
@@ -207,7 +207,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if obj.operation and obj.total exists and obj.next doesn\'t', () => {
+  test('Testing when obj.operation and obj.total exists and obj.next doesn\'t', () => {
     state.total = '3';
     state.operation = '+';
     buttonName = '+';
@@ -219,7 +219,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if obj.operation exists and obj.next and obj.total doesn\'t', () => {
+  test('Testing when obj.operation exists and obj.next and obj.total doesn\'t', () => {
     state.total = '2';
     state.next = '1';
     state.operation = '+';
@@ -233,7 +233,7 @@ describe('Test for calculate functions', () => {
     });
   });
 
-  test('Testing if obj.next doesn\'t exists', () => {
+  test('Testing when obj.next doesn\'t exists', () => {
     const result = calculate(state, buttonName);
 
     expect(result).toEqual({
