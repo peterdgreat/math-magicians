@@ -15,3 +15,7 @@ it('should multiply two numbers', () => {
 it('should divide two numbers', () => {
   expect(operate(6, 3, '÷')).toBe('2');
 });
+
+it('should give a modulus', () => {
+  expect(operate(7, 3, '%')).toBe('1');
+});
