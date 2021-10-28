@@ -9,7 +9,7 @@ export default function NavBar() {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse  d-flex justify-content-end navbar-collapse" id="navbarNav">
+        <div className="collapse  d-flex-md justify-content-end navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item bdr">
               <NavLink className="nav-link " to="/">Home</NavLink>

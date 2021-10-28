@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Container page with jest snapshot renders correctly 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <div
+      className="container-fluid"
+    >
+      <a
+        aria-current="page"
+        className="nav-link active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Math Magician
+      </a>
+      <button
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-bs-target="#navbarNav"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse  d-flex-md justify-content-end navbar-collapse"
+        id="navbarNav"
+      >
+        <ul
+          className="navbar-nav"
+        >
+          <li
+            className="nav-item bdr"
+          >
+            <a
+              aria-current="page"
+              className="nav-link  active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="nav-item bdr"
+          >
+            <a
+              aria-current={null}
+              className="nav-link"
+              href="/calculator"
+              onClick={[Function]}
+            >
+              Calculator
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              aria-current={null}
+              className="nav-link"
+              href="/quote"
+              onClick={[Function]}
+            >
+              Quote
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    <header>
+      <h2>
+         Welcome To Our Page
+      </h2>
+    </header>
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque.
+      </p>
+    </section>
+  </div>,
+]
+`;
+
+exports[`Testing Container page with jest snapshot renders correctly 2`] = `
+<div
+  className="container"
+>
+  <header>
+    <h2>
+       Welcome To Our Page
+    </h2>
+  </header>
+  <section>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque.
+    </p>
+  </section>
+</div>
+`;
+
+exports[`Testing Container page with jest snapshot renders correctly 3`] = `
+<div
+  className="d-flex flex-column justify-content-center align-items-center quote"
+>
+  <section
+    className="col-6 "
+  >
+    <p
+      className="text-center"
+    >
+      -
+    </p>
+    <button
+      className="btn btn-primary "
+      onClick={[Function]}
+      type="button"
+    >
+      Click to get more quotes
+    </button>
+  </section>
+</div>
+`;
+
+exports[`Testing Container page with jest snapshot renders correctly 4`] = `
+<div
+  className="h-bg"
+>
+  <header>
+    <div
+      className="d-flex justify-content-end px-2"
+    >
+      <h2>
+        0
+        0
+      </h2>
+    </div>
+  </header>
+  <section
+    className="d-flex"
+  >
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="s-box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+  </section>
+  <section
+    className="d-flex"
+  >
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="s-box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+  </section>
+  <section
+    className="d-flex"
+  >
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="s-box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+  </section>
+  <section
+    className="d-flex"
+  >
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="s-box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+  </section>
+  <section
+    className="d-flex"
+  >
+    <button
+      className="b-box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="s-box btn"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </section>
+</div>
+`;
+
+exports[`Testing Container page with jest snapshot renders correctly 5`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-light bg-light"
+>
+  <div
+    className="container-fluid"
+  >
+    <a
+      aria-current="page"
+      className="nav-link active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Math Magician
+    </a>
+    <button
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-bs-target="#navbarNav"
+      data-bs-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse  d-flex-md justify-content-end navbar-collapse"
+      id="navbarNav"
+    >
+      <ul
+        className="navbar-nav"
+      >
+        <li
+          className="nav-item bdr"
+        >
+          <a
+            aria-current="page"
+            className="nav-link  active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav-item bdr"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Testing Container page with jest snapshot renders correctly 6`] = `
+<button
+  onClick={[Function]}
+  type="button"
+/>
+`;
