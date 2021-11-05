@@ -8,7 +8,7 @@
 ![screenshot](calculator.png)
 
 ## Live demo
-[math-magician](https://peterdgreat.github.io/math-magicians/)
+[netlify](https://mathematics-magicians.netlify.app/)
 ## Built With
 
 - React
