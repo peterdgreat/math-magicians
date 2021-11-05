@@ -9,6 +9,7 @@
 
 ## Live demo
 [netlify](https://mathematics-magicians.netlify.app/)
+[heroku](https://mathe-magicians.herokuapp.com/quote)
 ## Built With
 
 - React
